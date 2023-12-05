@@ -10,6 +10,7 @@ namespace ConsoleApplication4
     {
         static void Main(string[] args)
         {
+            sdfsdf:
             Console.WriteLine("Введите сумму вклада");
             double symm = double.Parse(Console.ReadLine());
             if (symm < 100)
@@ -19,7 +20,7 @@ namespace ConsoleApplication4
             if (symm >= 200)
                 symm *= 1.1;
             Console.WriteLine($"Сумма вклада: {symm}");
-            Console.ReadKey();
+            goto sdfsdf;
         }
     }
 }
